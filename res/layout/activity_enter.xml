@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/styleRadioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/defaultStyleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:button="@null"
+        android:drawableLeft="@drawable/default_example"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:text="" />
+
+    <RadioButton
+        android:id="@+id/numberStyleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableLeft="@drawable/number_example"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:text="" />
+
+    <RadioButton
+        android:id="@+id/diagramsStyleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableLeft="@drawable/diagrams_example"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:text="" />
+
+</RadioGroup>
